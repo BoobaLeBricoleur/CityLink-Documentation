@@ -1,41 +1,34 @@
-# Website
+# 📚 CityLink - Documentation Technique
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bienvenue dans la documentation technique du projet **CityLink**.  
 
-### Installation
+---
 
-```
-$ yarn
-```
+## ⚙️ Prérequis
 
-### Local Development
+Avant de commencer, assurez-vous d’avoir installé :
 
-```
-$ yarn start
-```
+- [Node.js](https://nodejs.org/) (version LTS recommandée)
+- [npm](https://www.npmjs.com/) (généralement installé avec Node.js)
+- Un terminal (PowerShell, Bash, ou autre)
+- (Optionnel) [Git](https://git-scm.com/) pour cloner le dépôt
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## 🚀 Installation locale
 
-```
-$ yarn build
-```
+### 1. Cloner le dépôt Cloner le dépôt
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
+git clone https://github.com/BoobaLeBricoleur/citylink-documentation.git
+cd citylink-documentation
 
-### Deployment
+### 2. Cloner le dépôt Installer les dépendances
 
-Using SSH:
+npm install
 
-```
-$ USE_SSH=true yarn deploy
-```
+### 3. Lancer le site de documentation
 
-Not using SSH:
+npm run start
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Le site sera disponible à l’adresse : http://localhost:3000
